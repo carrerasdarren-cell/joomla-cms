@@ -107,8 +107,6 @@ final class Cookie extends CMSPlugin implements SubscriberInterface
             return;
         }
 
-        $this->loadLanguage();
-
         $cookieArray = explode('.', $cookieValue);
 
         // Check for valid cookie value

@@ -16,7 +16,7 @@ namespace Joomla\CMS\Language;
 /**
  * Interface to be implemented by classes depending on a language factory.
  *
- * @since  6.2.0
+ * @since  __DEPLOY_VERSION__
  */
 interface LanguageFactoryAwareInterface
 {
@@ -27,7 +27,7 @@ interface LanguageFactoryAwareInterface
      *
      * @return  void
      *
-     * @since   6.2.0
+     * @since   __DEPLOY_VERSION__
      */
     public function setLanguageFactory(?LanguageFactoryInterface $languageFactory = null): void;
 }

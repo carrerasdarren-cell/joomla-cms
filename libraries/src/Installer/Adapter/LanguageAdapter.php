@@ -906,7 +906,7 @@ class LanguageAdapter extends InstallerAdapter
      *
      * @return  void
      *
-     * @since   6.2.0
+     * @since   __DEPLOY_VERSION__
      */
     private function cleanLanguagesCache(): void
     {

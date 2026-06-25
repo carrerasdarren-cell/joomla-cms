@@ -18,7 +18,7 @@ use Joomla\CMS\Factory;
 /**
  * Defines the trait for a LanguageFactoryInterface aware class.
  *
- * @since  6.2.0
+ * @since  __DEPLOY_VERSION__
  */
 trait LanguageFactoryAwareTrait
 {
@@ -26,7 +26,7 @@ trait LanguageFactoryAwareTrait
      * LanguageFactoryInterface
      *
      * @var    LanguageFactoryInterface
-     * @since  6.2.0
+     * @since  __DEPLOY_VERSION__
      */
     private $languageFactory;
 
@@ -35,7 +35,7 @@ trait LanguageFactoryAwareTrait
      *
      * @return  LanguageFactoryInterface
      *
-     * @since   6.2.0
+     * @since   __DEPLOY_VERSION__
      * @throws  \UnexpectedValueException May be thrown if the LanguageFactory has not been set.
      */
     protected function getLanguageFactory(): LanguageFactoryInterface
@@ -59,7 +59,7 @@ trait LanguageFactoryAwareTrait
      *
      * @return  void
      *
-     * @since   6.2.0
+     * @since   __DEPLOY_VERSION__
      */
     public function setLanguageFactory(?LanguageFactoryInterface $languageFactory = null): void
     {

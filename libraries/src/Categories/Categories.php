@@ -90,7 +90,7 @@ class Categories implements CategoryInterface, DatabaseAwareInterface
      * Name of the items access field
      *
      * @var    string
-     * @since  6.2.0
+     * @since  __DEPLOY_VERSION__
      */
     protected $_accessfield;
 
